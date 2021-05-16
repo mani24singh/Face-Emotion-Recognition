@@ -4,7 +4,7 @@ import cv2 as cv
 
 er = EmotionRecognition(device='cpu')
 
-cam = cv.VideoCapture(0)
+cam = cv.VideoCapture(1)
 
 while True:
     success, frame = cam.read()
